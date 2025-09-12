@@ -45,7 +45,7 @@ TastePepAI/
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/TastePepAI.git
+git clone https://github.com/leleshidawang/TastePepAI.git
 cd TastePepAI
 
 # Install necessary dependencies (numpy, pandas, scikit-learn, tensorflow, etc.)
