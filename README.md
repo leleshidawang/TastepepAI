@@ -27,6 +27,7 @@ The platform integrates advanced machine learning algorithms, including a novel 
 TastePepAI/
 ├── 01_TastePepAI.py # Main automated pipeline controller
 ├── 02_LA-VAE.py # Taste peptide design and clustering module
+├── 02_LA-VAE_uncertainty_quantification.py # Enhanced LA-VAE with VAE-based uncertainty quantification that provides explicit confidence scores (0-1 range) for each generated peptide by leveraging the z_log_var output to quantify model uncertainty.
 ├── 03_TasToxPred.py # Short peptide toxicity prediction
 ├── 04_compute_physicochemical.py # Physicochemical property analysis
 ├── Input_taste_peptides.fasta # Input file for taste peptide design
